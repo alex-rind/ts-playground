@@ -1,0 +1,24 @@
+{
+  "name": "playground-parcel",
+  "version": "1.0.0",
+  "description": "simple D3 chart in TypeScript build with parcel",
+  "main": "index.html",
+  "repository": "https://github.com/alex-rind/ts-playground/tree/master/parcel",
+  "author": "Alexander Rind",
+  "license": "MIT",
+  "scripts": {
+    "start": "npm run dev",
+    "dev": "parcel *.html",
+    "prebuild": "rm -rf dist",
+    "build": "parcel build *.html  --no-source-maps",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@types/d3": "^5.7.2",
+    "parcel": "^1.12.4",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "d3": "^5.15.0"
+  }
+}
