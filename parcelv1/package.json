@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "simple D3 chart in TypeScript build with parcel",
   "main": "index.html",
-  "repository": "https://github.com/alex-rind/ts-playground/tree/master/parcel",
+  "repository": "https://github.com/alex-rind/ts-playground/tree/master/parcelv1",
   "author": "Alexander Rind",
   "license": "MIT",
   "scripts": {

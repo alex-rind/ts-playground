@@ -1,9 +1,18 @@
 # D3 chart using simple ES6 JavaScript
 
+## Setup
+
+none, create directory, files, and start coding :-)
+
 ## Startup
 
+* D3 is loaded from the cloud
 * using any local HTTP server such as [lite-server](https://www.npmjs.com/package/lite-server) or [http-server](https://www.npmjs.com/package/http-server)
-* put on a web server 
+* or put on a web server 
+
+```
+lite-server
+```
 
 ## Advantages
 

@@ -19,7 +19,7 @@ yarn build
 ## Startup
 
 ```
-npm install
+yarn install
 yarn build
 yarn dev
 ```
@@ -27,15 +27,16 @@ yarn dev
 ## Advantages
 
 * modern ES6/TypeScript syntax with arrow functions
-* static types enforced (not TypeScript!)
-* TODO check code completion (e.g., for d3 API)
+* static types enforced (TypeScript)
+* code completion (e.g., for d3 API)
 * D3 dependency is obvious from `package.json`
 * building and starting is obvious from `package.json`
+* images in HTML code work without any extra plugin
 
 ## Disadvantages
 
 * D3 types in function statements can be quite cluttered (e.g., `d3.Selection<SVGSVGElement, any, HTMLElement, any>`)
-* bundled JavaScript file is much larger than D3 from CDN
+* bundled JavaScript file is 468K -- larger than d3.min.js which is 80K
 * `node_modules` folder weights 140M
 
 ## Other
