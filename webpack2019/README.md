@@ -47,3 +47,4 @@ npm run build # build for production
 ## Future
 
 * webpack plugin `file-loader` might solve loading images and CSV files, cp. <https://developerhandbook.com/webpack/how-to-process-images-with-webpack/>
+* or Copy-Webpack-Plugin <https://stackoverflow.com/a/45598569/1140589>

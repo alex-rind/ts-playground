@@ -2,10 +2,10 @@
   "name": "playground-webpack-2019",
   "version": "1.0.0",
   "description": "simple D3 chart in TypeScript build with webpack",
-  "main": "index.js",
   "repository": "https://github.com/alex-rind/ts-playground/tree/master/webpack2019",
-  "author": "Alexander Rind",
+  "author": "Alexander Rind (https://github.com/alex-rind/)",
   "license": "MIT",
+  "private": true,
   "scripts": {
     "start": "cross-env NODE_ENV=development webpack-dev-server --hot --config webpack.config.js",
     "build:dev": "webpack -d --mode development",
