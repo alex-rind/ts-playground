@@ -19,3 +19,10 @@ experimental D3 &amp; TypeScript project setups
 [TypeScript and Webpack without HtmlLoader](webpack4-tsonly/)
 
 [Parcel v1](parcelv1/)
+
+## Security Vulnerabilities
+
+Which playground had more security vulnerabilities (D2)?
+
+* minimist 2020-04-06 all playgrounds
+* acorn 2020-04-05 all playgrounds
