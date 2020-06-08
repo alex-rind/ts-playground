@@ -24,5 +24,6 @@ experimental D3 &amp; TypeScript project setups
 
 Which playground had more security vulnerabilities (D2)?
 
-* minimist 2020-04-06 all playgrounds
-* acorn 2020-04-05 all playgrounds
+* 2020-06-07 websocket-extensions: webpack playgrounds
+* 2020-04-06 minimist: all playgrounds
+* 2020-04-05 acorn: all playgrounds
