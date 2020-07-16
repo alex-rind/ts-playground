@@ -27,3 +27,10 @@ Which playground had more security vulnerabilities (D2)?
 * 2020-06-07 websocket-extensions: webpack playgrounds
 * 2020-04-06 minimist: all playgrounds
 * 2020-04-05 acorn: all playgrounds
+
+## Acknowledgments
+
+This work was partly funded by the
+Austrian Research Promotion Agency (FFG): grant #866855 via [ReMoCap-Lab](https://research.fhstp.ac.at/en/projects/remocap-lab)
+and the
+FH St. Pölten via ZoteroVis Pilot.
