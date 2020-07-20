@@ -8,10 +8,10 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "npm run build:dev",
-    "build:dev": "webpack -d --mode development",
-    "build:dist": "echo \"Error: building for production not configured yet.\" && exit 1",
-    "start": "webpack-dev-server --open"
+    "build": "npm run build:dist",
+    "build:dev": "webpack --config webpack.dev.js",
+    "build:dist": "webpack --config webpack.prod.js",
+    "start": "webpack-dev-server --config webpack.dev.js"
   },
   "devDependencies": {
     "@types/d3": "^5.7.2",
@@ -19,9 +19,10 @@
     "typescript": "^3.8.2",
     "webpack": "^4.41.6",
     "webpack-cli": "^3.3.11",
-    "webpack-dev-server": "^3.10.3"
+    "webpack-dev-server": "^3.10.3",
+    "webpack-merge": "^5.0.9"
   },
   "dependencies": {
-    "d3": "^5.15.0"
+    "d3": "^5.16.0"
   }
 }
