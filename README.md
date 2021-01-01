@@ -24,6 +24,7 @@ experimental D3 &amp; TypeScript project setups
 
 Which playground had more security vulnerabilities (D2)?
 
+* 2021-01-01 ini & node-forge: webpack playgrounds
 * 2020-08-01 elliptic: all playgrounds
 * 2020-07-19 lodash: all playgrounds
 * 2020-06-07 websocket-extensions: webpack playgrounds
