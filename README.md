@@ -20,10 +20,13 @@ experimental D3 &amp; TypeScript project setups
 
 [Parcel v1](parcelv1/)
 
+[Svelte with TypeScript and Rollup](svelte-rollup/)
+
 ## Security Vulnerabilities
 
 Which playground had more security vulnerabilities (D2)?
 
+* 2021-01-01 node-forge: parcelv1 playground (manual fix needed)
 * 2021-01-01 ini & node-forge: webpack playgrounds
 * 2020-08-01 elliptic: all playgrounds
 * 2020-07-19 lodash: all playgrounds
