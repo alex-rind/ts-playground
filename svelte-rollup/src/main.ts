@@ -1,10 +1,10 @@
-import App from './App.svelte';
+import Chart from "./Chart.svelte";
 
-const app = new App({
-	target: document.body,
-	props: {
-		name: 'world'
-	}
+const chart = new Chart({
+  target: document.querySelector("#chart"),
+  props: {
+    markCount: "16"
+  }
 });
 
-export default app;
+export default chart;
