@@ -1,0 +1,28 @@
+{
+  "name": "playground-webpack4-tsonly",
+  "version": "1.0.0",
+  "description": "simple D3 chart in TypeScript build with webpack",
+  "repository": "https://github.com/alex-rind/ts-playground/tree/master/webpack4-tsonly",
+  "author": "Alexander Rind (https://github.com/alex-rind/)",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "npm run build:dist",
+    "build:dev": "webpack --config webpack.dev.js",
+    "build:dist": "webpack --config webpack.prod.js",
+    "start": "webpack-dev-server --config webpack.dev.js"
+  },
+  "devDependencies": {
+    "@types/d3": "^5.7.2",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.8.2",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.10.3",
+    "webpack-merge": "^5.0.9"
+  },
+  "dependencies": {
+    "d3": "^5.16.0"
+  }
+}
