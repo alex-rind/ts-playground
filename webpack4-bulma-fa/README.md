@@ -5,6 +5,7 @@ based on
   and <https://v4.webpack.js.org/guides/typescript/>
 * <https://developerhandbook.com/webpack/webpack-typescript-from-scratch/>
 * <https://github.com/ashcroft147/d3-typescript-boilerplate>
+* [Font Awesome with Webpack](https://stackoverflow.com/a/53580347/1140589)
 
 ## Setup
 
@@ -16,6 +17,8 @@ yarn add --dev webpack webpack-cli ts-loader typescript webpack-dev-server webpa
 
 yarn add d3
 yarn add --dev @types/d3
+
+yarn add @fortawesome/fontawesome-svg-core @fortawesome/free-brands-svg-icons @fortawesome/free-regular-svg-icons @fortawesome/free-solid-svg-icons
 ```
 
 Adapting configuration files according to tutorials.
@@ -37,6 +40,7 @@ npm start # dev & watch
 * D3 dependency is obvious from `package.json`
 * building and starting is obvious from `package.json`
 * old-school way to include style and images from `dist` folder
+* [fontawesome-svg-core](https://fontawesome.com/how-to-use/on-the-web/advanced/svg-javascript-core) allows to include only few icons in the `bundle.js` (44k instead of 633k)
 
 ## Disadvantages
 
