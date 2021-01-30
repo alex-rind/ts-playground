@@ -6,6 +6,7 @@ based on
 * <https://developerhandbook.com/webpack/webpack-typescript-from-scratch/>
 * <https://github.com/ashcroft147/d3-typescript-boilerplate>
 * [Font Awesome with Webpack](https://stackoverflow.com/a/53580347/1140589)
+* [Bulma with Webpack](https://bulma.io/documentation/customize/with-webpack/)
 
 ## Setup
 
@@ -19,6 +20,9 @@ yarn add d3
 yarn add --dev @types/d3
 
 yarn add @fortawesome/fontawesome-svg-core @fortawesome/free-brands-svg-icons @fortawesome/free-regular-svg-icons @fortawesome/free-solid-svg-icons
+
+yarn add bulma
+yarn add --dev css-loader mini-css-extract-plugin node-sass sass-loader
 ```
 
 Adapting configuration files according to tutorials.
@@ -41,6 +45,7 @@ npm start # dev & watch
 * building and starting is obvious from `package.json`
 * old-school way to include style and images from `dist` folder
 * [fontawesome-svg-core](https://fontawesome.com/how-to-use/on-the-web/advanced/svg-javascript-core) allows to include only few icons in the `bundle.js` (44k instead of 633k)
+* customizable Bulma styling
 
 ## Disadvantages
 

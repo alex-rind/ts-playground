@@ -14,13 +14,15 @@ experimental D3 &amp; TypeScript project setups
 
 [ES6 JavaScript, no building](es6/)
 
-[TypeScript and Webpack with HtmlLoader](webpack2019/)
+[TypeScript and Webpack4 with HtmlLoader](webpack2019/)
 
-[TypeScript and Webpack without HtmlLoader](webpack4-tsonly/)
+[TypeScript and Webpack4 without HtmlLoader](webpack4-tsonly/)
 
 [Parcel v1](parcelv1/)
 
 [Svelte with TypeScript and Rollup](svelte-rollup/)
+
+[TypeScript and Webpack4 with Bulma and Font Awesome](webpack4-bulma-fa/)
 
 ## Security Vulnerabilities
 

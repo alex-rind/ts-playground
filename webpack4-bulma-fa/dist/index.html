@@ -1,17 +1,31 @@
 <!DOCTYPE html>
-<html>
-<head>
-    <meta charset="UTF-8">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>D3 chart using TypeScript</title>
-</head>
+    <link rel="stylesheet" href="./build/bundle.css" />
+  </head>
 
-<body>
-    <h1>D3 chart using TypeScript</h1>
+  <body>
+    <div class="container">
+    <h1 class="title">D3 chart using TypeScript</h1>
     <main>
-        <output id="chart"></output>
-        <img src="example.png" />
-        <i class="fas fa-user"></i> <!-- uses solid style -->
+      <output id="chart"></output>
+      <img src="example.png" />
     </main>
-    <script src="./bundle.js"></script>
-</body>
+    <nav>
+      <div class="buttons">
+        <a class="button is-primary">
+          <span class="icon">
+            <i class="fas fa-user"></i>
+          </span>
+          <span>Primary</span></a
+        >
+        <a class="button is-link">Link</a>
+      </div>
+    </nav>
+    </div>
+    <script src="./build/bundle.js"></script>
+  </body>
 </html>

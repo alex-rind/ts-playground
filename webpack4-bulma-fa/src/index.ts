@@ -6,5 +6,7 @@ import { faUser } from '@fortawesome/free-solid-svg-icons'
 library.add(faUser);
 dom.watch();
 
+require('./mystyles.scss');
+
 import { renderChart } from './chart';
 renderChart('#chart');
