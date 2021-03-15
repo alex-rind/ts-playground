@@ -28,6 +28,7 @@ experimental D3 &amp; TypeScript project setups
 
 Which playground had more security vulnerabilities (D2)?
 
+* 2021-03-10 elliptic: all webpack & parcelv1 playground
 * 2021-01-01 node-forge: parcelv1 playground (manual fix needed)
 * 2021-01-01 ini & node-forge: webpack playgrounds
 * 2020-08-01 elliptic: all playgrounds
