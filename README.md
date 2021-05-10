@@ -18,7 +18,7 @@ experimental D3 &amp; TypeScript project setups
 
 [TypeScript and Webpack4 without HtmlLoader](webpack4-tsonly/)
 
-[Parcel v1](parcelv1/)
+[Parcel v1](parcelv1/) -- security risk: no longer updated
 
 [Svelte with TypeScript and Rollup](svelte-rollup/)
 
@@ -28,6 +28,8 @@ experimental D3 &amp; TypeScript project setups
 
 Which playground had more security vulnerabilities (D2)?
 
+* 2021-05-08 url-parse: all webpack & parcelv1 playground
+* 2021-04-30 ssri: all webpack playground
 * 2021-03-10 elliptic: all webpack & parcelv1 playground
 * 2021-01-01 node-forge: parcelv1 playground (manual fix needed)
 * 2021-01-01 ini & node-forge: webpack playgrounds
