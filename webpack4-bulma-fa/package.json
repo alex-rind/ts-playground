@@ -1,8 +1,8 @@
 {
-  "name": "playground-webpack4-tsonly",
+  "name": "playground-webpack4-bulma-fa",
   "version": "1.0.0",
-  "description": "simple D3 chart in TypeScript build with webpack",
-  "repository": "https://github.com/alex-rind/ts-playground/tree/master/webpack4-tsonly",
+  "description": "simple D3 chart in TypeScript build with webpack plus bulma ad FontAwesome",
+  "repository": "https://github.com/alex-rind/ts-playground/tree/master/webpack4-bulma-fa",
   "author": "Alexander Rind (https://github.com/alex-rind/)",
   "license": "MIT",
   "private": true,
