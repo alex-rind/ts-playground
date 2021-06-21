@@ -28,6 +28,10 @@ experimental D3 &amp; TypeScript project setups
 
 Which playground had more security vulnerabilities (D2)?
 
+* 2021-06-15 postcss: bulma playground
+* 2021-06-06 ws: all webpack & parcel playgrounds
+* 2021-05-28 dns-packet: all webpack playgrounds
+* 2021-05-26 browserslist: parcelv1 playground (also vue projects)
 * 2021-05-?? lodash: parcelv1 playground
 * 2021-05-08 url-parse: all webpack playground
 * 2021-04-30 ssri: all webpack playground
